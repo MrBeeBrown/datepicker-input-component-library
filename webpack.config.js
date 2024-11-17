@@ -26,6 +26,9 @@ module.exports = {
   },
   resolve: {
     extensions: ['.js', '.jsx'],
+    alias: {
+      'pikaday': path.resolve(__dirname, 'node_modules/pikaday'),
+    },
   },
   externals: {
     react: 'react',
